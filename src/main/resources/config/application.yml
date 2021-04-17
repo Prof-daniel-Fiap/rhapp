@@ -130,7 +130,7 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: https://3.239.90.2:9443/auth/realms/jhipster
         registration:
           oidc:
             client-id: web_app
